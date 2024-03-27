@@ -100,13 +100,16 @@ def get_product(product_id):
     if not product:
         return jsonify({"message": "Product not found"}), HTTPStatus.NOT_FOUND
 
+    
+    product['_id'] = str(product['_id'])
+
     variants = []
     for variant_id in product.get("variants", []):
         variant = variant_collection.find_one({"_id": variant_id})
-        if variant:  # Check if variant exists before adding
+        if variant:  
             variants.append(variant)
 
-    product["variants"] = variants  # Update product with retrieved variants
+    product["variants"] = variants  
     return jsonify(product), HTTPStatus.OK
 
 @app.put("/products/<product_id>")
@@ -128,6 +131,24 @@ def update_product(product_id):
     except Exception as e:
         print(e)
         return jsonify({"message": "Internal server error"}), HTTPStatus.INTERNAL_SERVER_ERROR
+def convert_id_to_str(product):
+    product['_id'] = str(product['_id'])
+    return product
+
+@app.get("/products")
+def get_all_products():
+    """
+    Endpoint to retrieve all products.
+    """
+    products = list(product_collection.find())
+    if not products:
+        return jsonify({"message": "No products found"}), HTTPStatus.NOT_FOUND
+    
+    # Convert ObjectId to string for each product
+    products = [convert_id_to_str(product) for product in products]
+    
+    return jsonify(products), HTTPStatus.OK
+
 
 @app.delete("/products/<product_id>")
 def delete_product(product_id):
