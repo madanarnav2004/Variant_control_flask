@@ -116,3 +116,7 @@ You can use Postman to interact with the API endpoints. Make sure you have the P
 
 1. Send requests to the desired endpoints by clicking on the "Send Request" button next to each request.
 2. Edit the raw body option to add json wherever needed
+
+###Demo Images
+![Screenshot](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%2010.16.30%20PM.png)
+
