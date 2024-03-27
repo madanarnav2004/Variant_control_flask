@@ -4,7 +4,7 @@ This repository contains the backend system for managing products with variants.
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - MongoDB
 
 ## Installation
@@ -111,7 +111,8 @@ This repository contains the backend system for managing products with variants.
 
 ## Using Postman
 
-You can use Postman to interact with the API endpoints. Make sure you have the [Postman Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) installed.
+You can use Postman to interact with the API endpoints. Make sure you have the Postman Visual Studio Code extension installed.
 
-1. Open the `requests.http` file.
-2. Send requests to the desired endpoints by clicking on the "Send Request" button next to each request.
+
+1. Send requests to the desired endpoints by clicking on the "Send Request" button next to each request.
+2. Edit the raw body option to add json wherever needed
