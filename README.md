@@ -12,7 +12,7 @@ This repository contains the backend system for managing products with variants.
 1. Clone the repository:
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/madanarnav2004/Variant_control_flask.git
     ```
 
 2. Install the required Python packages:
