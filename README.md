@@ -24,7 +24,7 @@ This repository contains the backend system for managing products with variants.
 3. Start MongoDB server:
 
     ```bash
-    mongod
+    mongosh
     ```
 
 4. Run the Flask application:
