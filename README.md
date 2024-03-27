@@ -118,5 +118,13 @@ You can use Postman to interact with the API endpoints. Make sure you have the P
 2. Edit the raw body option to add json wherever needed
 
 ###Demo Images
-![Screenshot](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%2010.16.30%20PM.png)
+![Screenshot 4](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%2010.16.30%20PM.png)
+![Screenshot 1](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%2010.29.45%20PM.png)
+
+![Screenshot 2](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%2010.29.15%20PM.png)
+
+![Screenshot 3](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%208.01.22%20PM.png)
+
+![Screenshot 4](https://github.com/madanarnav2004/Variant_control_flask/raw/main/Screenshot%202024-03-27%20at%2010.16.30%20PM.png)
+
 
